@@ -7,6 +7,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+body p {
+    font-family: 'Poppins', sans-serif;
+}
+
 .top-banner {
     height: 550px;
     background-image: url(images/donation0.jpg);
@@ -65,17 +69,19 @@ body {
 
 /* Donation Today Section Start */
 
-#donation-section {
+#donation-section,
+#donate-plan-section {
     /* border: #FF5959 solid 5px; */
     width: 80%;
-    margin: auto;
+    margin: 10% auto;
     display: flex;
     flex-direction: column;
     /* text-align: center; */
     align-items: center;
 }
 
-#donation-section h1 {
+#donation-section h1,
+#donate-plan-section h1 {
     font-size: 40px;
     font-weight: 700;
     color: black;
@@ -154,3 +160,29 @@ body {
 
 
 /* Donation Today Section End Here */
+
+/* Donation Plan Section Start From Here */
+
+#plan-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.plan-card {
+    background-color: #ff595918;
+    /* width: 360px;
+    height: 352px; */
+    padding: 5% 2%;
+    margin: 2% 2%;
+    border-radius: 3%;
+
+}
+
+#card-of-food {
+    background-color: #4f9da615;
+
+}
+
+/* Donation Plan Section End Here */
